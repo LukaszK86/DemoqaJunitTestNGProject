@@ -1,0 +1,24 @@
+warning: LF will be replaced by CRLF in .idea/workspace.xml.
+The file will have its original line endings in your working directory.
+[1mdiff --git a/.idea/workspace.xml b/.idea/workspace.xml[m
+[1mindex 46dd960..9c531f2 100644[m
+[1m--- a/.idea/workspace.xml[m
+[1m+++ b/.idea/workspace.xml[m
+[36m@@ -1,16 +1,7 @@[m
+ <?xml version="1.0" encoding="UTF-8"?>[m
+ <project version="4">[m
+   <component name="ChangeListManager">[m
+[31m-    <list default="true" id="a5a09a0a-d68e-4169-a7dd-6dcec8c040e9" name="Default" comment="">[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/DataPickerSelenium_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/DataPickerSelenium_main.iml" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/DataPickerSelenium_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/DataPickerSelenium_test.iml" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/SliderPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/SliderPage.java" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SliderParameterizedTest.java" afterPath="$PROJECT_DIR$/src/test/java/SliderParameterizedTest.java" />[m
+[31m-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SliderTest.java" afterPath="$PROJECT_DIR$/src/test/java/SliderTest.java" />[m
+[31m-    </list>[m
+[32m+[m[32m    <list default="true" id="a5a09a0a-d68e-4169-a7dd-6dcec8c040e9" name="Default" comment="" />[m
+     <ignored path="$PROJECT_DIR$/out/" />[m
+     <ignored path="$PROJECT_DIR$/.gradle/" />[m
+     <ignored path="$PROJECT_DIR$/build/" />[m
