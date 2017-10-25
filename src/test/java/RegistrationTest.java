@@ -1,6 +1,6 @@
 import Pages.Menus.SideMenu;
 import Pages.RegistrationPage;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationTest extends BaseTest {
@@ -18,7 +18,5 @@ public class RegistrationTest extends BaseTest {
         registrationPage.typeUsername("Andrzej7272");
         registrationPage.clickSubmitnButton();
         registrationPage.typeMail("andrzej7272@.ahoj.pl");
-
-
     }
 }

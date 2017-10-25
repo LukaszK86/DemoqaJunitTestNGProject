@@ -1,9 +1,8 @@
 package Pages.DatePicker;
-
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 public class DatePickerPage extends DatePickerData {
 
@@ -41,9 +40,9 @@ public class DatePickerPage extends DatePickerData {
     }
 
     public void verifyData(DatePickerData datePickerData) {
-        Assertions.assertEquals(datePickerData.getMonth(), getCurrentMonth());
-        Assertions.assertEquals(datePickerData.getYear(), getCurrentYear());
-        Assertions.assertEquals(datePickerData.getDay(), getCurrentDay());
+        Assert.assertEquals(datePickerData.getMonth(), getCurrentMonth());
+        Assert.assertEquals(datePickerData.getYear(), getCurrentYear());
+        Assert.assertEquals(datePickerData.getDay(), getCurrentDay());
         System.out.printf("Date value: " + datePickerData.getMonth() + " " + datePickerData.getYear() + " " + datePickerData.getDay() + " is displayed! Scucess!");
 
     }

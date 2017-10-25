@@ -1,7 +1,7 @@
 import Pages.FramesAndWindowsPage;
 import Pages.Menus.TopMenu;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.openqa.selenium.support.PageFactory;
 
 public class FramesAndWindowsTest extends BaseTest {
@@ -21,7 +21,7 @@ public class FramesAndWindowsTest extends BaseTest {
         driver.switchTo().window(winHandleBefore);
         topMenu.clickHome();
         driver.close();
-        Assertions.assertEquals(1, driver.getWindowHandles().size());
+        Assert.assertEquals(1, driver.getWindowHandles().size());
     }
 }
 

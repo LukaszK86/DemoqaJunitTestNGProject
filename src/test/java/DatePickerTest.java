@@ -1,6 +1,6 @@
 import Pages.DatePicker.DatePickerData;
 import Pages.DatePicker.DatePickerPage;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import org.openqa.selenium.support.PageFactory;
 
 public class DatePickerTest extends BaseTest {
